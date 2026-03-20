@@ -214,17 +214,6 @@ N/A answers are excluded from both numerator and denominator. The overall score 
 ## Contribuer / Contributing
 
 Les contributions sont les bienvenues. / Contributions are welcome.
-
-1. Forker le dépôt / Fork the repository
-2. Créer une branche / Create a branch: `git checkout -b feature/ma-contribution`
-3. Committer les changements / Commit: `git commit -m 'feat: description'`
-4. Pousser / Push: `git push origin feature/ma-contribution`
-5. Ouvrir une Pull Request / Open a Pull Request
-
-**Pour corriger ou ajouter des questions** : modifier le tableau `SECTIONS` dans `guide-cis-pme.html`. Chaque entrée de question contient les champs `fr`, `en`, `ref` et `pillars`.
-
-**To correct or add questions**: edit the `SECTIONS` array in `guide-cis-pme.html`. Each question entry has `fr`, `en`, `ref` and `pillars` fields.
-
 ---
 
 <div align="center">
