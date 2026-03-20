@@ -66,14 +66,14 @@ One HTML file. No server. No data transmitted. Open in a browser and start.
 | 16 | Sécurité applicative, physique et télétravail | Application Security, Physical & Remote Work | 🔵 Protect · 🟡 Culture |
 | 17 | Gestion de la réponse aux incidents | Incident Response Management | 🟢 Respond |
 | 18 | Tests de pénétration et exercices offensifs | Penetration Testing | 🔵 Protect · 🟡 Culture |
-| 19 ⭐ | Sécurité de l'intelligence artificielle | Artificial Intelligence Security | 🔵 🟣 🟡 Extension |
+| 19 ** | Sécurité de l'intelligence artificielle | Artificial Intelligence Security | 🔵 🟣 🟡 Extension |
 
-> ⭐ Le domaine 19 est une extension hors cadre CIS v8.1 standard, couvrant la gouvernance IA, les risques de modèles et la conformité Loi 25/Loi 64.
+> ** Le domaine 19 est une extension hors cadre CIS v8.1 standard, couvrant la gouvernance IA, les risques de modèles et la conformité Loi 25/Loi 64.
 > Domain 19 is an extension beyond standard CIS v8.1, covering AI governance, model risks, and Law 25/Bill 64 compliance.
 
 ---
 
-## 📊 Échelle de maturité / Maturity Scale
+## Échelle de maturité / Maturity Scale
 
 Chaque question est évaluée sur une échelle de 0 à 4. / Each question is scored on a 0–4 scale.
 
