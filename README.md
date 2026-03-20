@@ -44,7 +44,7 @@ One HTML file. No server. No data transmitted. Open in a browser and start.
 
 ---
 
-## 📋 Couverture des Contrôles CIS v8.1 / CIS Controls Coverage
+## Couverture des Contrôles CIS v8.1 / CIS Controls Coverage
 
 | # | Domaine (FR) | Domain (EN) | Pilier(s) |
 |---|---|---|---|
