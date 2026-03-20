@@ -108,7 +108,7 @@ N/A answers are excluded from both numerator and denominator. The overall score 
 
 ---
 
-## 🧭 Fonctionnalités / Features
+## Fonctionnalités / Features
 
 ### Interface
 
