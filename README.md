@@ -1,4 +1,4 @@
-# 🔐 Guide d'Évaluation des PMEs — Contrôle CIS
+# Guide d'Évaluation des PMEs — Contrôle CIS
 ### SMB CIS Controls Assessment Guide · v8.1 + IA · Bilingue FR/EN
 
 > Outil d'évaluation de la maturité cybersécurité autonome, bilingue et gratuit pour les PME québécoises — fondé sur les 18 Contrôles CIS v8.1, la Loi 25 et le cadre PDRP.
@@ -15,8 +15,19 @@
 ![Single file](https://img.shields.io/badge/Fichier%20unique-HTML-B45309?style=flat-square)
 
 ---
+##  Démarrage rapide / Quick Start
 
-## ✨ Aperçu / Overview
+Aucune installation requise.  /  No installation required.
+
+<h3 align="center">
+  <a href="https://ironbranded.github.io/Guide-PME-CIS/" target="_blank" rel="noopener noreferrer">
+    🟢 TRY THE GUIDE / ESSAYER LE GUIDE 🟢
+  </a>
+</h3>
+
+---
+
+## Aperçu / Overview
 
 Un seul fichier HTML. Aucun serveur. Aucune donnée transmise. Ouvrir dans le navigateur et commencer.
 
@@ -30,18 +41,6 @@ One HTML file. No server. No data transmitted. Open in a browser and start.
 | **Langues** | Français · English |
 | **Dépendances runtime** | Aucune / None |
 | **Stockage des données** | Mémoire navigateur uniquement / Browser memory only |
-
----
-
-## 🚀 Démarrage rapide / Quick Start
-
-Aucune installation requise.  /  No installation required.
-
-<h3 align="center">
-  <a href="https://ironbranded.github.io/Guide-PME-CIS/" target="_blank" rel="noopener noreferrer">
-    🟢 TRY THE GUIDE / ESSAYER LE GUIDE 🟢
-  </a>
-</h3>
 
 ---
 
@@ -180,7 +179,7 @@ N/A answers are excluded from both numerator and denominator. The overall score 
 
 ---
 
-## ⚖️ Références réglementaires québécoises / Québec Regulatory References
+## Références réglementaires québécoises / Québec Regulatory References
 
 | Règlement | Portée | Domaines CIS liés |
 |---|---|---|
@@ -192,20 +191,7 @@ N/A answers are excluded from both numerator and denominator. The overall score 
 
 ---
 
-## 📁 Structure du dépôt / Repository Structure
-
-```
-├── guide-cis-pme.html    # Guide complet — fichier HTML unique et autonome
-└── README.md             # Ce fichier / This file
-```
-
-Tout — HTML, CSS, JavaScript, données des 95 questions, traductions FR/EN — est intégré dans un seul fichier. Aucun processus de build, aucune dépendance, aucun serveur.
-
-Everything — HTML, CSS, JavaScript, all 95 question datasets, FR/EN translations — is bundled in a single file. No build process, no dependencies, no server.
-
----
-
-## 🔧 Notes techniques / Technical Notes
+## Notes techniques / Technical Notes
 
 - **HTML/CSS/JS pur** — aucun framework, aucune dépendance npm à l'exécution
 - **État en mémoire uniquement** — les réponses ne persistent pas entre les sessions ; exporter en CSV avant de fermer l'onglet
@@ -213,28 +199,9 @@ Everything — HTML, CSS, JavaScript, all 95 question datasets, FR/EN translatio
 - **Export CSV** — BOM UTF-8 inclus pour l'affichage correct des caractères français dans Microsoft Excel
 - **Impression** — CSS `@media print` avec `print-color-adjust: exact` pour préserver les couleurs des en-têtes
 - **Navigateurs supportés** — Chrome, Firefox, Edge, Safari (Internet Explorer non supporté)
-
 ---
 
-## ✅ Validation
-
-Le fichier a été validé par un script automatisé couvrant 209 vérifications structurelles et fonctionnelles.
-
-| Vérification | Résultat |
-|---|---|
-| IDs HTML référencés par JavaScript | ✅ 81 / 81 |
-| Fonctions JavaScript définies | ✅ 31 / 31 |
-| Intégrité des données | ✅ 19 sections × 5 questions = 95 |
-| Valeurs de piliers valides | ✅ `protect` · `detect` · `respond` · `culture` |
-| Labels statiques FR + EN | ✅ 24 clés dans les deux objets langue |
-| Handlers `onclick` | ✅ Tous référencés à des fonctions définies |
-| CSS d'impression | ✅ `print-all` · `print-hide-notes` · `print-hide-scale` |
-| Logique de navigation | ✅ `goPage()` · `enterApp()` · `doReset()` · `doPrint()` |
-| **Total** | **✅ 209 vérifications — 0 problème — 0 avertissement** |
-
----
-
-## 🗺️ Feuille de route / Roadmap
+## Feuille de route / Roadmap
 
 - [ ] Sauvegarde locale (`localStorage`) optionnelle pour reprendre une évaluation en cours
 - [ ] Export PDF côté client (html2pdf ou équivalent) sans passer par la boîte de dialogue d'impression
@@ -244,7 +211,7 @@ Le fichier a été validé par un script automatisé couvrant 209 vérifications
 
 ---
 
-## 🤝 Contribuer / Contributing
+## Contribuer / Contributing
 
 Les contributions sont les bienvenues. / Contributions are welcome.
 
@@ -257,29 +224,6 @@ Les contributions sont les bienvenues. / Contributions are welcome.
 **Pour corriger ou ajouter des questions** : modifier le tableau `SECTIONS` dans `guide-cis-pme.html`. Chaque entrée de question contient les champs `fr`, `en`, `ref` et `pillars`.
 
 **To correct or add questions**: edit the `SECTIONS` array in `guide-cis-pme.html`. Each question entry has `fr`, `en`, `ref` and `pillars` fields.
-
----
-
-## 📄 Licence / License
-
-Distribué sous licence MIT. Voir `LICENSE` pour plus d'informations.
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
----
-
-## 🏷️ Version
-
-| Propriété | Valeur |
-|---|---|
-| Nom du fichier | `guide-cis-pme.html` |
-| Cadre de référence | Contrôle CIS v8.1 |
-| Extension IA | CIS IA-1 à IA-5 |
-| Réglementation québécoise | Loi 25 (application intégrale 2023) |
-| Langues | Français · English |
-| Questions | 95 (19 domaines × 5) |
-| Vérifications de validation | 209 |
-| Taille du fichier | ~106 KB (fichier unique) |
 
 ---
 
